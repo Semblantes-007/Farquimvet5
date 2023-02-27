@@ -1,0 +1,50 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experiences-body {
+    background-color: var(--logo-color1);
+    color: var(--text-color-inverse);
+  }
+  
+  .wave {
+    width: 100%;
+    position: relative;
+    top: 2px;
+  }
+  
+  .wave_bottom {
+
+    top: -2px;
+  }
+  
+  .experiences-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px;
+  }
+
+
+
+  
+  @media (min-width: 950px) {
+    .experiences-title {
+      font-size: 35px;
+      margin:25px;
+    }
+    }
+  
+
+    .experiences-grid {
+        display: grid;
+        grid-template-columns: auto;
+        gap: auto;
+        padding: auto;
+        justify-content: center;
+        max-width: auto;
+        max-height: auto 12000px;
+        margin: auto;
+      }

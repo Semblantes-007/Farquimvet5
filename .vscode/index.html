@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>FARQUIMVET</title>
+                <!--favicon-->
+                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+                <link rel="manifest" href="/site.webmanifest">
+                <!--favicon-->
+            <link rel="preconnect" href="https://fonts.gstatic.com" />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+            rel="stylesheet"
+            />
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+            />
+            <link rel="stylesheet" href="css/main.css" />
+            <link rel="stylesheet" href="css/navbar.css" />
+            <link rel="stylesheet" href="css/profile.css">
+            <link rel="stylesheet" href="css/list.css">
+            <link rel="stylesheet" href="css/business.css">
+            <link rel="stylesheet" href="css/contact.css">
+            <!--bootstrap css-->
+            <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+            <script defer src="js/app.js"></script>
+            <!--bootstrap css-->
+        </head>
+    <body>
+        <form
+        action="https://formspree.io/f/xdovgqqy"
+        method="POST"
+      >
+      
+<!--navbar-->
+        <header class="topheader">
+            <nav class="topnav">
+                    <a href="#" class="logo">
+                        <img 
+                            height="70"
+                            width="70"
+                            src="imagenes/1.png" 
+                            alt="logotipo"
+                        />
+                        <div class="logotype">
+                            farquimvet
+                        </div>
+                    </a>
+                    <button class="open-menu" aria-label="Abrir menú">
+                        <img src="imagenes/hamburger-icon.svg" alt="abrir menú">
+                    </button>
+                    <ul class="menu">
+                        <button class="close-menu" aria-label="Cerrar menú">
+                        <img src="imagenes/close-icon.svg"  
+                        height="30"
+                        width="30" 
+                        alt="cerrar menú" />
+                        </button>
+                        <li><a href="#Home" class="selected"> inicio </a></li>
+                        <li><a href="#BusinessServices">servicios empresariales</a></li>
+                        <li><a href="#clearproducts">productos clear</a></li>
+                        <li><a href="#contact">contacto</a></li>
+                    </ul>
+            </nav>
+        </header>
+
+ <!--profile-->
+        <div class="horizontal-padding vertical-padding">
+            <section class="profile" id="Home">
+                <div class="profile-info">
+                    
+                    <h1 class="profile-tittle" >farquimvet</h1>
+                    <p class="profile-details">Somos una empresa ecuatoriana dedicada a brindar asesoría en materia de normativa de la Agrocalidad nacional para la elaboración de productos químicos y veterinarios. Además, bajo nuestra submarca Clear, elaboramos y distribuimos productos de aseo de alta calidad. 
+                    <br> En Farquimvet, nuestra principal misión es brindar soluciones efectivas y sostenibles a nuestros clientes.</p>
+                    
+                    <nav class="social">
+                        <ul class="social-list">
+                            <li>
+                                    <a href="http://192.168.1.2:5500/.vscode/index.html#contact">
+                                        <button class="profile-btn">contacto</button>
+                                    </a>
+                            </li>
+            
+
+            
+                        </ul>
+                   </nav>
+                    
+                    
+                        
+                </div>
+                <div class="profile-img-section">
+
+                    <img 
+                    class="profile-img"
+                    src="imagenes/1.png" alt="logo2">
+                </div>
+            </section>
+        </div>
+ <!--business-->
+    <!--bootstrap-->
+    <section class="experiences" id="BusinessServices">
+        <img src="imagenes/ondas/wave (1).svg" alt="división" class="wave">
+        <div class="experiences-body">
+          <h2 class="experiences-title">servicios empresariales</h2>
+          <br>
+          <div class="experiences-grid">
+          
+            
+               
+                        <section class="container">
+            
+                        
+                            <!--Carousel-->
+                            <div class="col">
+                                <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                                    
+                                    <div class="carousel-inner">
+                                        
+                                        <div class="carousel-item active">
+                                            <img src="imagenes/imagenes banner/1.svg" class="w-100" alt="servicio1"
+                                            >
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="imagenes/imagenes banner/2.svg"class="w-100" alt="servicio2"
+                                            >
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="imagenes/imagenes banner/3.svg" class="w-100" alt="servicio3"
+                                            >
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="imagenes/imagenes banner/4.svg" class="w-100" alt="servicio4"
+                                            >
+                                        </div>    
+
+                                        <div class="carousel-item">
+                                            <img src="imagenes/imagenes banner/5.svg" class="w-100" alt="servicio5"
+                                            >
+                                        </div>  
+
+                                        <div class="carousel-item">
+                                            <img src="imagenes/imagenes banner/6.svg" class="w-100" alt="servicio6"
+                                            >
+                                        </div>  
+
+
+                                    </div>
+                            <!--Controles anterior y siguiente-->
+                            <!--left-->
+                            <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="prev"
+                        
+                            >
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+
+                            </button>
+
+                            <!--right-->
+                            <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#slideshow"
+                            data-bs-slide="next"
+                        
+                            >
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+
+                            </button>
+
+
+                            <!--indicators-->
+                            <div class="carousel-indicators">
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide #1"
+                                ></button>
+
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="1"
+                                aria-current="true"
+                                aria-label="Slide #2"
+                                ></button>
+
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="2"
+                                aria-current="true"
+                                aria-label="Slide #3"
+                                ></button>
+
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="3"
+                                aria-current="true"
+                                aria-label="Slide #4"
+                                ></button>
+
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="4"
+                                aria-current="true"
+                                aria-label="Slide #5"
+                                ></button>
+
+                                <button
+                                type="button"
+                                data-bs-target="#slideshow"
+                                data-bs-slide-to="5"
+                                aria-current="true"
+                                aria-label="Slide #6"
+                                ></button>  
+                            </div>
+                    </section>
+<br>
+<br>
+<br>
+<br>
+          </div>  
+        </div>
+        <img src="imagenes/ondas/wave (2).svg" alt="divisíon" class="wave wave_bottom">
+    </section>
+ <!--galeria de productos-->
+    <!--bootstrap-->
+    <div class="horizontal-padding vertical-padding">
+        <section class="container" id="clearproducts">
+            <div>
+                <br>
+                <br>
+                <h2 class="list-tittle">productos clear</h2>
+            </div>
+                 <!--Productos-->
+                    <div class="row py-5">
+                    <div class="border-bottom">
+                    </div>
+               </div>
+
+              <!--cards-->     
+               <div class="row">
+                    <!--1-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/1.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Alcohol</h3>
+                                <p class="card-text">CLARE ofrece alcohol al 70% recomendado para el uso doméstico. </p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+
+                     <!--2-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/2.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Alcohol industrial </h3>
+                                <p class="card-text">CLARE ofrece alcohol al 96% recomendado para entornos industriales y sanitarios.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                      <!--3-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/3.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Gel antiséptico</h3>
+                                <p class="card-text">CLARE ofrece gel antiséptico con aloe vera ideal para cuidar y desinfectar tus manos.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                        </div>
+
+                      <!--4-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/4.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Desengrasante industrial</h3>
+                                <p class="card-text">CLARE ofrece desengrasante industrial ideal para arrancar por completo la grasa pesada y garantizar la limpieza de talleres mecánicos, autolavados, gasolineras, cocinas industriales, camales, baños, etc.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                      <!--5-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/5.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Jabón liquido</h3>
+                                <p class="card-text">CLARE ofrece Jabón líquido para manos en varias presentaciones.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+                    
+                     <!--6-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/6.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloro</h3>
+                                <p class="card-text">CLARE ofrece cloro en varias presentaciones, ideal para desinfectar varias superficies y desmanchar ropa.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+                    
+                     <!--7-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/7.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Detergente líquido para ropa</h3>
+                                <p class="card-text">CLARE ofrece detergente líquido ideal para cuidar tus prendas al momento del lavado.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+                    
+                     <!--8-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/8.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Shampoo de autos</h3>
+                                <p class="card-text">CLARE ofrece shampoo de autos formulado especialmente con alta tecnología y con el cual tu auto obtendrá brillo inmediato.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                     <!--9-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/9.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Desinfectante</h3>
+                                <p class="card-text">CLARE ofrece desinfectante ideal para el uso doméstico e industrial.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                     <!--10-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/10.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Suavizante de ropa</h3>
+                                <p class="card-text">CLARE ofrece Suavizante de ropa ideal para cuidar tus prendas al momento del lavado.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                     <!--11-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/11.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Amonio cuaternario</h3>
+                                <p class="card-text">CLARE ofrece amonio cuaternario ideal para desinfectar superficies en entornos domésticos e industriales.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+
+                     <!--12-->  
+                    <div class="col-12 col-sm-6 col-lg-4 mb-5 text-center">
+                        <img class="card-img-top" src="imagenes/imagenesFV/12.png" alt="Alcohol">
+                            <div class="card-body">
+                                <h3 class="card-title">Brillo para llantas y tableros</h3>
+                                <p class="card-text">CLARE ofrece brillo para llantas y tableros formulado especialmente con alta tecnología y con el cual tu auto obtendrá brillo inmediato.</p>
+                                <!-- <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+                                <a href="#" class="btn btn-sm btn-secondary">Detalles</a> -->  
+                            </div>
+                    </div>
+               </div>
+
+        </section>
+
+    </div>
+
+ <!--list-->
+       <!-- <div class="horizontal-padding vertical-padding">
+            <section class="list">
+                
+                <h2 class="list-tittle">productos</h2>
+                
+                <ul class="list-list">
+                    <li class="list-products">Alcohol</li>
+                    <li class="list-products">Gel antiséptico</li>
+                    <li class="list-products">Desinfectante</li>
+                    <li class="list-products">Jabón liquido</li>
+                    <li class="list-products">Cloro</li>
+                    <li class="list-products">Detergente liquido para ropa</li>
+                    <li class="list-products">Suavizante para ropa</li>
+                    <li class="list-products">Antisarro</li>
+                    <li class="list-products">Desengrasante</li>
+                    <li class="list-products">Shampoo automotriz</li>
+                    <li class="list-products">Hidratante automotriz</li>
+
+                </ul>
+            </section>
+
+        </div>-->
+
+        <!--bootstrap js-->
+        <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+        <!--bootstrap js-->
+<!--contactos-->
+    <div class="horizontal-padding vertical-padding">
+        <section class="contact" id="contact" id="profilebtn">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-details">
+            <div class="contact-details-group">
+
+                <p class="contact-label">Dirección:</p>
+                <p class="contact-text"> Calles Caracas y Cochabamba "La Península", Ambato, Ecuador
+                </p>
+            
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-label">Número telefónico:</p>
+                <p class="contact-text"> 
+                    0987479527 
+                    <br>
+                    0997663234
+                </p>
+            </div>
+            <div class="contact-details-group">
+                <p class="contact-label">Email:</p>
+                <p class="contact-text">monicaaguirre24@yahoo.com
+                </p>
+            </div>
+        </div>
+        <form class="contact-form">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name" placeholder="Nombre" name="Nombre:">
+                </div>
+                <div class="contact-form-group">
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email" placeholder="Email" name="Email:">
+                </div>
+                
+                <div class="contact-form-group">
+                    <label for="number">Número telefónico</label>
+                    <input required type="number" name="number" id="number" placeholder="Número telefónico" name="Número telefónico:">
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6" class="form__input--message" placeholder="Mensaje" name="Mensaje:"></textarea>
+                </div>
+
+                <button type="submit" class="contact-form-submit">Enviar</button>
+        </form>
+        <nav class="social">
+                <ul class="social-list">
+                    <li>
+                            <a href="https://www.facebook.com/profile.php?id=100069853790558">
+                            <img src="imagenes/Social/facebook-svgrepo-com (1).svg" alt="facebook1">
+                            </a>
+                    </li>
+
+                    <li>
+                            <a href="https://www.facebook.com/farquimvet">
+                            <img src="imagenes/Social/facebook-svgrepo-com (2).svg" alt="facebook2">
+                            </a>
+                        
+                    </li>
+
+                </ul>
+        </nav>
+        </section>
+    </div>
+<!--contactos-->
+    </body>
+    
+
+</html>
