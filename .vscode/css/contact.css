@@ -109,9 +109,11 @@ height: 75px;
     
     .social-list{
         justify-content: flex-start;
+
     }
     .social-list img {
     height: 50px;
+    }
     }
 
     .contact-title{
