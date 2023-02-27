@@ -102,7 +102,7 @@ height: 75px;
     
     .contact-title{
     font-size: 35px;
-    text-align: left;
+    text-align: center;
 
     }
     
@@ -132,7 +132,7 @@ height: 75px;
     .contact {
         display: grid;
         grid: 
-        "title   form"
+        "title   form" auto
         "details form" auto
         "details form" auto
         "details form" auto
