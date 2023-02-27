@@ -70,7 +70,7 @@ text-transform: uppercase;
 }
 
 .contact-form-submit:hover{
-    box-shadow:0 0 14px var(--secondary-color);
+    box-shadow:0 0 14px var(--text-color-inverse);
 }
 .social-list{
     list-style: none;
@@ -84,7 +84,7 @@ text-transform: uppercase;
 height: 75px;
 }
 .social-list img:hover {
-    filter: drop-shadow(0 0 5px var(--secondary-color));
+    filter: drop-shadow(0 0 5px var(--text-color-inverse));
     }
 
 
@@ -126,18 +126,18 @@ height: 75px;
     }
     .social {
         grid-area: social;
+        justify-content: right;
     }
 
     .contact {
         display: grid;
         grid: 
-        "title   title"
-        "details form" auto
+        "title   form"
         "details form" auto
         "details form" auto
         "details form" auto
         "social  form" auto/
-         0.75fr     1fr;
+         1fr     1fr;
     align-items: start;
     }
 }
