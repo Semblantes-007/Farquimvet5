@@ -17,10 +17,15 @@
   --text-color:black;
   --navbar-shallow-color:#e5e5e5;
   --menu-mobile-background-color:/*#095898*/ #041d7b;
+  
 }
 html{
 scroll-behavior: smooth;
-font-family: 'Montserrat', sans-serif;
+--bs-body-font-family: 'Montserrat', sans-serif;
+--bs-body-font-family: uppercase;
+/*font-family: 'Montserrat', sans-serif;*/
+
+
 }
 section[id]{
 scroll-margin: 70px;
@@ -33,7 +38,7 @@ body {
     width: 100%;*/
 
 
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Montserrat', sans-serif;*/
   background-color: var(--theme-color);
   color: var(--text-color);
   padding-top: 120px;
