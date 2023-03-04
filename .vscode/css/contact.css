@@ -33,6 +33,9 @@ text-transform: uppercase;
 .contact-form-group {
     display: grid;
     gap: 1px;
+    text-transform: uppercase;
+    font-weight: 500;    
+
 }
 
 .contact-label {
@@ -88,7 +91,10 @@ height: 75px;
     }
 
 
-
+.contact-text {
+    text-transform:none;
+    font-weight: 100;
+}
 
 @media (min-width: 950px) {
     .contact{
