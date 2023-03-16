@@ -149,3 +149,47 @@ height: 75px;
     align-items: center;
     }
 }
+
+
+
+@media (max-width: 400px) {
+    .contact {
+        text-align: center;
+
+    }
+
+    
+    input, textarea {
+        box-sizing: border-box;
+        width: auto;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .contact-form-submit {
+        width: 50%;
+        cursor: pointer;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-title{
+        text-align: center;
+        }
+        .social-list{
+            justify-content: center;
+    
+        }
+        .social-list img {
+        height: 50px;
+        text-align: center;
+        }
+        
+        .social {
+        
+            justify-content: center;
+        }
+
+    }
+
+
