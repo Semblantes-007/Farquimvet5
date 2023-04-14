@@ -43,6 +43,23 @@
                 }
               </style>
 
+<!--color chatbot-->
+<style>
+    df-messenger {
+     --df-messenger-bot-message: white;
+     --df-messenger-button-titlebar-color: #adbb3a;
+     --df-messenger-chat-background-color: #fafafa;
+     --df-messenger-font-color: black;
+     --df-messenger-send-icon: white;
+     --df-messenger-user-message: #DDDDDD;
+    }
+  </style>
+
+
+
+
+<!--color chatbot-->
+
         </head>
     <body>
       
@@ -110,15 +127,7 @@
                 </div>
             </section>
         </div>
-<!--chatbot-->
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="VET"
-  agent-id="2bed7625-b2a7-4296-b346-7dc47c9bcdb5"
-  language-code="es"
-></df-messenger>
-<!--chatbot-->
+
  <!--business-->
     <!--bootstrap-->
     <section class="experiences" id="BusinessServices">
@@ -506,8 +515,17 @@
 
         <!--bootstrap js-->
 
-
-
+<!--chatbot-->
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="VET"
+  agent-id="2bed7625-b2a7-4296-b346-7dc47c9bcdb5"
+  chat-icon="VET.png"
+  language-code="es"
+  >
+</df-messenger>
+<!--chatbot-->
     </body>
     
     
