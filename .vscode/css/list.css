@@ -1,7 +1,7 @@
-.lis{
-    max-width: 980px;
-    margin: 0 auto;
+main > .container {
+    padding: 0;
 }
+
 .list-tittle{
     font-size: 25px;
     font-weight: bold;
@@ -9,30 +9,14 @@
     text-align: center;
     color: var(--logo-color3);
 }
-.list-products{
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 42px;
-    padding: 0.5em 0.7em;
-    margin: 10px;
 
-}
-.list-list{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
+
 @media(min-width: 950px){
 
     .list-tittle{
         font-size: 35px;
 
     }
-    .list-products{
-        font-size: 30px;
-        margin: 20px;
-}
+
 }

@@ -22,8 +22,6 @@
 html{
 scroll-behavior: smooth;
 --bs-body-font-family: 'Montserrat', sans-serif;
-/*font-family: 'Montserrat', sans-serif;*/
-
 
 }
 section[id]{
@@ -32,12 +30,6 @@ scroll-margin: 70px;
 }
 
 body {
-  /*background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-    min-height: 100vh;
-    width: 100%;*/
-
-
-  /*font-family: 'Montserrat', sans-serif;*/
   background-color: var(--theme-color);
   color: var(--text-color);
   padding-top: 120px;
@@ -56,7 +48,7 @@ a {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-@media (min-width: 950px){
+@media (min-width: 1200px){
   .horizontal-padding {
 
     padding-left: 70px;
