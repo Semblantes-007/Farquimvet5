@@ -28,20 +28,29 @@
     text-align: center;
     
 }
+
 .profile-btn{
+
+
+
     background-color: var(--logo-color1);
     color: var(--text-color-inverse);
     border: none;
     font-size: 20px;
     padding: 0.5em 1em;
-    border-radius: 7px;
+    border-radius: 8px;
     cursor: pointer;
     text-transform:capitalize;
 
+    transition: all 300ms;
 }
-.profile-btn:hover {
-    filter: brightness(200%);
+
+.profile-btn:hover{
+    background: var(--logo-color2);
 }
+  
+
+
 @media (min-width: 950px) {
     .profile{
         text-align: left;
