@@ -47,6 +47,24 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.d-flex.justify-content-center.description a.btn {
+  padding: 10px 40px;
+
+
+  border: none;
+  background: var(--logo-color1);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 300ms;
+}
+
+.d-flex.justify-content-center.description a.btn:hover {
+  background: var(--logo-color3);
+}
+
 @media (min-width: 1200px){
   .horizontal-padding {
 
